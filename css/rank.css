@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, textarea, figure { margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+html { font-size: 26.67vw; }
+
+body { font-family: "微软雅黑",Arial; display: flex; flex-direction: column; }
+
+ul, ol { list-style: none; }
+
+a { text-decoration: none; }
+
+li { list-style: none; }
+
+img { border: none; display: block; }
+
+span { display: block; }
+
+header { width: 100%; height: .7rem; padding-top: .16rem; }
+
+header .head { padding: 0 .13rem 0 .16rem; display: flex; align-items: center; justify-content: space-between; }
+
+header .head img:nth-child(1) { width: .11rem; height: .19rem; }
+
+header .head h3 { font-size: .17rem; }
+
+header .head img:nth-child(3) { width: .19rem; height: .19rem; }
+
+header .nav { margin-left: .05rem; height: .44rem; display: flex; flex: 1; overflow-x: auto; align-items: center; }
+
+header .nav a { color: black; font-size: .15rem; flex-shrink: 0; padding: 0 .12rem; }
+
+header .nav a:nth-child(1) { font-weight: 900; }
+
+section { width: 100%; flex: 1; overflow-y: auto; overflow-x: hidden; }
+
+section .list { padding-top: .1rem; display: flex; align-items: center; padding-left: .1rem; }
+
+section .list a img { width: 1.17rem; height: .65rem; }
+
+section .list .nr { padding-left: .07rem; }
+
+section .list .nr h3 { font-size: .13rem; font-weight: 100; line-height: .21rem; }
+
+section .list .nr h4 { font-size: .11rem; font-weight: 100; color: #9b9b9b; }
