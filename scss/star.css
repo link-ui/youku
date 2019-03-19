@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  display: flex;
+  flex-direction: column; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+span {
+  display: block; }
+
+header {
+  height: .44rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: .02rem .06rem 0; }
+  header .starTX {
+    width: .25rem;
+    height: .25rem;
+    margin-right: .68rem; }
+  header .gz {
+    font-weight: 900; }
+  header h3 {
+    font-size: .16rem;
+    font-weight: 100; }
+  header a {
+    font-size: .11rem;
+    color: #666;
+    width: .88rem;
+    height: .23rem;
+    border: 1px solid #666;
+    border-radius: .12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    header a img {
+      width: .09rem;
+      height: .09rem;
+      margin-left: .06rem;
+      margin-top: .02rem; }
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  section .banner {
+    border-top: 1px solid #f0f0f0;
+    padding-bottom: .08rem;
+    background-color: #f0f0f0; }
+    section .banner a img {
+      width: 3.75rem;
+      height: 1.80rem; }
+  section .content .list {
+    padding: .2rem .1rem 0 .1rem;
+    border-bottom: .08rem solid #f0f0f0; }
+    section .content .list .list-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      section .content .list .list-top .tx {
+        display: flex;
+        align-items: center; }
+        section .content .list .list-top .tx img {
+          width: .36rem;
+          height: .36rem; }
+        section .content .list .list-top .tx .name {
+          padding-left: .06rem; }
+          section .content .list .list-top .tx .name h3 {
+            font-size: .14rem;
+            color: #2d95ff; }
+          section .content .list .list-top .tx .name h4 {
+            font-size: .1rem;
+            color: #999;
+            font-weight: 100; }
+      section .content .list .list-top .guanz {
+        width: .6rem;
+        height: .3rem;
+        background-color: #eef7ff;
+        text-align: center;
+        line-height: .3rem;
+        font-size: .12rem;
+        color: #2692ff;
+        border-radius: .03rem; }
+    section .content .list .nr h3 {
+      font-size: .15rem;
+      padding-top: .15rem;
+      padding-bottom: .1rem; }
+    section .content .list .nr p {
+      font-size: .14rem;
+      line-height: .23rem; }
+    section .content .list .nr .pic {
+      display: flex;
+      padding-top: .09rem;
+      justify-content: space-between; }
+      section .content .list .nr .pic a img {
+        width: 1.15rem;
+        height: 1.15rem; }
+    section .content .list .down {
+      display: flex;
+      height: .6rem;
+      align-items: center;
+      justify-content: space-between; }
+      section .content .list .down .down-tx {
+        display: flex; }
+        section .content .list .down .down-tx img {
+          width: .18rem;
+          height: .18rem;
+          padding-right: .06rem; }
+        section .content .list .down .down-tx h3 {
+          font-size: .11rem;
+          color: #9c9c9c; }
+          section .content .list .down .down-tx h3:last-child {
+            font-weight: 100;
+            padding-left: .12rem; }
+      section .content .list .down .zan {
+        display: flex; }
+        section .content .list .down .zan a {
+          display: flex;
+          align-items: center; }
+          section .content .list .down .zan a img {
+            width: .16rem;
+            height: .16rem;
+            margin-right: .07rem; }
+          section .content .list .down .zan a span {
+            font-size: .11rem;
+            color: #9c9c9c; }
+          section .content .list .down .zan a:last-child img {
+            margin-left: .26rem; }
+
+footer {
+  width: 100%;
+  height: .5rem;
+  border-top: 1px solid #b2b2b2;
+  display: flex;
+  align-items: center; }
+  footer a {
+    flex: 1;
+    text-align: center; }
+    footer a img {
+      width: .25rem;
+      height: .2rem;
+      margin: 0 auto; }
+    footer a span {
+      padding-top: .05rem;
+      font-size: 10px;
+      color: #666666; }
+    footer a:nth-child(4) span {
+      color: #2692ff; }
+
+/*# sourceMappingURL=star.css.map */

@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+html{
+    font-size: 26.67vw;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    display: flex;
+    flex-direction: column;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
+span{
+    display: block;
+}
+//header
+header{
+    width:100%;
+    height:2.73rem;
+    .header-top{
+        width:100%;
+        height:1.23rem;
+        background-image: url("../img/myBanner.png");
+        background-size: 100% 100%;
+        .top-one{
+            padding:.16rem .19rem .27rem .21rem;
+            display: flex;
+            height:.16rem;
+            justify-content: space-between;
+            .sao{
+                display: flex;
+                a{
+                    font-size: .11rem;
+                    color:white;
+                    display: flex;
+                    img{
+                        width:.16rem;
+                        height:.16rem;
+                        margin-right: .06rem;
+                    }
+                }
+            }
+            .sz{
+                display: flex;
+                align-items: center;
+                a:nth-child(1){
+                    padding-right: .26rem;
+                    img{
+                        width:.16rem;
+                        height:.16rem;
+                    }
+                }
+                a:nth-child(2){
+                    span{
+                        color: black;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        .top-two{
+            display: flex;
+            height:.44rem;
+            padding:0 .16rem .2rem .86rem;
+            align-items: center;
+            justify-content: space-between;
+            .name{
+                h3{
+                    font-size: .15rem;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width:.15rem;
+                        height:.15rem;
+                        margin-left: .08rem;
+                    }
+                }
+                span{
+                    width:.4rem;
+                    height:.18rem;
+                    border:1px solid #dcd4bc;
+                    border-radius: .1rem;
+                    font-size: .08rem;
+                    font-weight: 900;
+                    text-align: center;
+                    line-height: .18rem;
+                    margin-top: .11rem;
+                }
+            }
+            a:last-child{
+                img{
+                    width:.79rem;
+                    height:.33rem;
+                }
+            }
+        }
+    }
+    .header-down{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: .13rem;
+        padding-bottom: .15rem;
+        a{
+            text-align: center;
+            img{
+                width:.3rem;
+                height:.23rem;
+                margin:0 auto .07rem;
+            }
+            span{
+                color:black;
+                font-size: .11rem;
+            }
+        }
+    }
+    .banner{
+        display: flex;
+        justify-content: space-around;
+        a{
+            img{
+                width:3.55rem;
+                height:.8rem;
+                display: block;
+            }
+            margin-bottom: 1px;
+        }
+
+    }
+}
+//section
+section{
+    width:100%;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    ul{
+        li{
+            border-bottom: 2px solid #f7f7f7;
+            .list-one{
+                width: 100%;
+                height:.49rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h3{
+                    font-size: .16rem;
+                    padding-left: .17rem;
+                }
+                a{
+                    color:#c0a463;
+                    font-size: .12rem;
+                    display: flex;
+                    align-items: center;
+                    .hg{
+                        width:.12rem;
+                        height:.1rem;
+                        margin-right: .06rem;
+                    }
+                    .right{
+                        width:.1rem;
+                        height:.1rem;
+                        margin-left:.12rem;
+                        margin-right:.12rem;
+                    }
+                }
+            }
+            .list-two{
+                display: flex;
+                overflow-x: auto;
+                padding-left: .1rem;
+                a{
+                    margin-right: .03rem;
+                    img{
+                        width:1rem;
+                        height:.56rem;
+                    }
+                    span{
+                        font-size: 12px;
+                        color:black;
+                        padding-top: .08rem;
+                        padding-bottom: .16rem;
+                    }
+                }
+            }
+            .fuwu{
+                justify-content: space-around;
+                padding-bottom: .05rem;
+                a{
+                    img{
+                        width:.29rem;
+                        height:.22rem;
+
+                    }
+                }
+            }
+        }
+    }
+}
+//footer
+footer{
+    width:100%;
+    height:.5rem;
+    border-top:1px solid #b2b2b2;
+    display: flex;
+    align-items: center;
+    a{
+        flex: 1;
+        text-align: center;
+        img{
+            width:.25rem;
+            height:.2rem;
+            margin:0 auto;
+        }
+        span{
+            padding-top: .05rem;
+            font-size: 10px;
+            color:#666666;
+        }
+        &:nth-child(5){
+            span{
+                color:#2692ff;
+            }
+        }
+    }
+}
